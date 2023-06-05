@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+/*  Menu Section */
+.show {
+    display: block;
+}
+button{
+    padding: .8em;
+}
+.Menu {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 160px;
+}
+.dropdown-content a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    padding: 12px 16px;
+}
